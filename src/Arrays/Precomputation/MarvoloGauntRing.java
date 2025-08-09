@@ -3,7 +3,7 @@ package Arrays.Precomputation;
 
 import java.util.Scanner;
 
-public class Question2 {
+public class MarvoloGauntRing {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in) ;
         //taking inputs from the console

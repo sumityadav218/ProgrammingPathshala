@@ -1,6 +1,6 @@
 package Arrays.Precomputation;
 
-public class Question1 {
+public class PrecomputeSample {
 
     public static int[] precompute(int[] arr) {
         int n = arr.length;
