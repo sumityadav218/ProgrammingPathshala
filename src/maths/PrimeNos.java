@@ -75,13 +75,16 @@ public class PrimeNos {
                 }
             }
         }
-
+            int primeNosInRange = 0 ;
         // Print all primes in the range
         for (int i = 2; i <= range; i++) {
             if (prime[i]) {
+                primeNosInRange++ ;  //this is just an additonal thing to check to the count of primes no with in a range
                 System.out.println("Prime number: " + i);
             }
         }
+
+        System.out.println(primeNosInRange);
 
     }
 }
