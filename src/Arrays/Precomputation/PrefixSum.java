@@ -1,8 +1,10 @@
 package Arrays.Precomputation;
 
-public class PrecomputeSample {
+public class PrefixSum {
 
-    public static int[] precompute(int[] arr) {
+    public static int[] preFixSum(int[] arr) {
+
+        //prefix sum
         int n = arr.length;
         int[] precomputed = new int[n];
         precomputed[0] = arr[0];
@@ -16,7 +18,7 @@ public class PrecomputeSample {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        int[] result = precompute(arr);
+        int[] result = preFixSum(arr);
 
         for (int value : result) {
             System.out.print(value + " ");

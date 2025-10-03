@@ -36,5 +36,12 @@ public class Factors {
         //if given value is perfect square means return odd
         //else return true
 
+        int n = 36;
+        int sqrt = (int) Math.sqrt(n);
+        if (sqrt * sqrt == n) {
+            System.out.println("odd");
+        } else {
+            System.out.println("even");
+        }
 
     }}
